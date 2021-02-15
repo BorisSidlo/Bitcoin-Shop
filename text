@@ -1,0 +1,18 @@
+Vue Bitcoin mini eshop 
+
+featurty :
+
+[change product on click]
+[out of stock]
+
+
+
+//poznamky
+
+computed=> 
+
+Ben .disabled-Button {
+  background-color: #d8d8d8;
+}
+
+https://www.google.com/search?safe=off&client=safari&rls=en&sxsrf=ALeKk00gq8I0YdK-TImmsw4SmdtDsmFoAQ%3A1610362135232&ei=Fy38X_fIDYyRsAeSgq_oCg&q=atomic+desing+book&oq=atomic+desing+book&gs_lcp=CgZwc3ktYWIQAzIHCC4QDRCTAjIECAAQDTIECAAQDTIICAAQCBANEB46BAgAEEdQxQlYziRgtiZoAXABeACAAY4BiAHFB5IBAzAuOJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwi3sJ642pPuAhWMCOwKHRLBC60Q4dUDCAw&uact=5

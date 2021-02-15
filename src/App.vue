@@ -15,11 +15,17 @@
 
 
   <HelloWorld msg="Welcome to our Store"/>
+  <HelloWorld msg="Welcome to our Store"/>
+  <Product :premium="premium" />
+  <ProductReview @review-submitted="addReview"></ProductReview>/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Product from './components/Product.vue'
+import ProductReview from './components/ProductReview.vue'
+
 
 
 
@@ -30,19 +36,19 @@ export default {
   name: 'App',
   components: {
     HelloWorld,
+    Product,
+    ProductReview,
+    
+ 
 
     
   },
   data() {
     return {
       image: 'https://www.opennode.com/blog/wp-content/uploads/2020/04/bitcoin-button0-small.png',
-      methods: {
-        addToCart(){
-          
-        }
-      },
+      premium: true
     }
-  },
+  }
 
 }
 
